@@ -12,7 +12,7 @@ lazy val root = Project("root", file("."), settings = commonSettings ++ ScroogeS
     version := "0.1-SNAPSHOT",
     mainClass := Some("me.Start"),
     libraryDependencies ++= Seq(
-      "com.twitter" %% "scrooge-core" % "3.17.0",
+      "com.twitter" %% "scrooge-core" % "4.2.0",
       "org.apache.thrift" % "libthrift" % "0.9.2",
       "com.twitter" %% "finagle-thrift" % "6.25.0"
     )
